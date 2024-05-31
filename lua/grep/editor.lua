@@ -7,7 +7,7 @@ vim.opt.expandtab = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = "nvim-undo"
+vim.opt.undodir = "../nvim-undo"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
@@ -15,7 +15,7 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 vim.opt.updatetime = 50
-
+vim.cmd.colorscheme "catppuccin"
 vim.opt.scrolloff = 4
 
 -- Ensure background is set to transparent-friendly color
