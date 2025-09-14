@@ -1,4 +1,6 @@
 vim.opt.number = true
+vim.wo.number = true
+
 vim.opt.wrap = false
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
